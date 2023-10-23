@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Russo+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* header */
+header {
+    width: 1440px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #A1A6B4;
+}
+.logo {
+    width: 317px;
+    height: 49px;
+    margin-left: 140px;
+}
+.logo a { 
+    font-family: 'Russo One', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #121723;
+}
+.nav {
+    width: 262px;
+    height: 20px;
+    gap: 24px;
+    margin: 50px 157px 40px 562px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav a {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+/* main */
+main {
+    width: 1440px;
+    height: 1435px;
+    background-color: #F1F1F1;
+}
+.conteiner {
+    width: 1161px;
+    height: 1340px;
+    gap: 25px;
+    margin: 25px 139.5px;
+}
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.card_block {
+    width: 1161px;
+    height: 420px;
+    gap: 24px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.card_product {
+    width: 371px;
+    height: 394px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    cursor: pointer;
+}
+.sneaker {
+    width: 371px;
+    height: 254px;
+}
+.sneaker img {
+    height: 254px;
+}
+.sneaker_model {
+    width: 371px;
+    height: 140px;
+    padding: 32px 24px;
+}
+h4 {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+p {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.extra {
+    height: 420px;
+}
+.extr {
+    height: 166px;
+}
+/* footer */
+footer {
+    width: 1440px;
+    height: 142px;
+    background-color: #121723;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block_footer {
+    width: 1160px;
+    height: 87px;
+    border-bottom: solid 1px #E6E8EC66;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end {
+    width: 306px;
+    height: 24px;
+    display: inline-block;
+}
+.end a {
+    font-family: 'Russo One', sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.width {
+    width: 262px;
+    height: 20px;
+    margin: 0;
+}
+.width a {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.end_p {
+    font-family: 'Anonymous Pro', monospace;
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 18px;
+}
